@@ -1,5 +1,5 @@
-@import url("/css/components.css");
-@import url("/css/src/themes/tasy-dark.css");
+@import url("./components.css");
+@import url("./src/themes/tasy-light.css");
 
 .s-hero {
     display: flex;

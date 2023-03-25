@@ -1,0 +1,5 @@
+@import url("/css/main.css");
+
+.button-primary {
+    background: var(--color-primary);
+}

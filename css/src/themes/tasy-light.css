@@ -1,0 +1,6 @@
+@import url("/css/src/foundation/reset.css");
+@import url("/css/src/foundation/variables.css");
+
+:root {
+    --color-primary: var(--brand-color-A)
+}

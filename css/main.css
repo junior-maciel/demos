@@ -1,5 +1,6 @@
-@import url("./components.css");
+@import url("./src/foundation/reset.css");
 @import url("./src/themes/tasy-light.css");
+@import url("./components.css");
 
 .s-hero {
     display: flex;

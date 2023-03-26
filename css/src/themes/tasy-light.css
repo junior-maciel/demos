@@ -20,6 +20,7 @@
     --color-signal-normal: var(--global-green-55);
     --color-signal-hover: var(--global-green-60);
     --color-signal-pressed: var(--global-green-65);
+    --color-quiet-normal: var(--global-neutral-transparent);
 
     /* Text Interactive */
 
@@ -35,14 +36,25 @@
     --text-onSignal-normal: var(--global-neutral-white);
     --text-onSignal-hover: var(--global-neutral-white);
     --text-onSignal-pressed: var(--global-neutral-white);
+    --text-onQuiet-normal: var(--global-groupblue-50);
+    --text-onQuiet-hover: var(--global-groupblue-55);
+    --text-onQuiet-pressed: var(--global-groupblue-60);
+
 
     /* UI Details */
 
-    --button-borderRadius: var(--radius-md)
+    --button-borderRadius: var(--radius-md);
+    --button-padding: 6px 16px;
+    --button-label: var(--label-small);
+    --button-style: 0px 1px 1px 0px #00000099;
+
+    /* Typographies */
+
+    --label-small: 14px;
+    --label-medium: 16px;
+    --label-large: 18px;
 
 }
-
-
 
 button {
     min-width: 80px;

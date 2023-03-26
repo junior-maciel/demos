@@ -2,6 +2,7 @@
     /* Global Neutral */
         --global-neutral-white: #FFFFFF;
         --global-neutral-black: #000000;
+        --global-neutral-transparent: #FFFFFF00;
     
     /* Global Gray */
     
@@ -10,6 +11,7 @@
         --global-gray-15: #D6D6D6;
         --global-gray-20: #C4C4C4;
         --global-gray-55: #4d4d4d;
+        --global-gray-60: #454545;
         --global-gray-75: #212121;
     
     /* Global GroupBlue */
@@ -27,6 +29,22 @@
         --global-green-55: #1E782E;
         --global-green-60: #006B34;
         --global-green-65: #005B33;
+        --global-green-70: #004E30;
+
+    /* Global Blue */
+
+        --global-blue-70: #123E68;
+
+    /* Signal Blue */
+
+        --signal-blue-30: #41C9FE;
+        --signal-blue-45: #03ABFF;
+
+    /* Signal Green */
+
+        --signal-blue-60: #7BCC00;
+        --signal-blue-40: #B7F03C;
+
     
     /* Shapes */
 
@@ -34,5 +52,14 @@
     --radius-sm: 2px;
     --radius-md: 4px;
     --radius-lg: 8px;
-    --radius-full: 9999px
+    --radius-full: 9999px;
+
+    /* Shadows */
+
+    --shadow-color-none: #00000000;
+    --shadow-color-light: #00000033;
+    --shadow-color-dark: #00000099;
+    --light-shadow-none: 0px 0px 0px 0px var(--shadow-color-none);
+    --light-shadow-base: 0px 1px 1px 0px var(--shadow-color-dark);
+
     }

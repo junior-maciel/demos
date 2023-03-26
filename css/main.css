@@ -1,5 +1,5 @@
 @import url("./src/foundation/reset.css");
-@import url("./src/themes/tasy-light.css");
+@import url("./src/themes/tasy-dark.css");
 @import url("./components.css");
 
 html {

@@ -35,8 +35,20 @@
         --global-green-70: #004E30;
 
     /* Global Blue */
-
+        --global-blue-05: #F2F6FF;
+        --global-blue-10: #DEEAFF;
+        --global-blue-15: #C5DAFB;
+        --global-blue-20: #ABCBF7;
+        --global-blue-25: #8DB9EF;
+        --global-blue-30: #72ABEB;
+        --global-blue-45: #337FBF;
+        --global-blue-50: #296FAB;
+        --global-blue-55: #236197;
+        --global-blue-60: #1C5385;
         --global-blue-70: #123E68;
+        --global-blue-75: #0D3459;
+        --global-blue-80: #092F52;
+
 
     /* Signal Blue */
 

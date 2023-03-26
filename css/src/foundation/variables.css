@@ -15,9 +15,13 @@
         --global-gray-75: #212121;
     
     /* Global GroupBlue */
+        --global-groupblue-05: #F0F8FA;
+        --global-groupblue-10: #DAF1F7;
         --global-groupblue-15: #BFE2EB;
         --global-groupblue-20: #9DD3E3;
         --global-groupblue-25: #7CC0D9;
+        --global-groupblue-30: #5DAFD1;
+        --global-groupblue-45: #1474A4;
         --global-groupblue-50: #176498;
         --global-groupblue-55: #1B578E;
         --global-groupblue-60: #1D4C84;
@@ -25,7 +29,6 @@
         --global-groupblue-80: #1C255C;
     
     /* Global Green */
-    
         --global-green-55: #1E782E;
         --global-green-60: #006B34;
         --global-green-65: #005B33;
@@ -39,6 +42,14 @@
 
         --signal-blue-30: #41C9FE;
         --signal-blue-45: #03ABFF;
+
+    /* Signal Green */
+
+        --signal-green-30: #45DE85;
+        --signal-green-40: #23CC72;
+        --signal-green-45: #00BD5E;
+        --signal-green-50: #00AB5B;
+        --signal-green-60: #009957;
 
     /* Signal Lime */
 

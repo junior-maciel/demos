@@ -5,9 +5,12 @@
     
     /* Global Gray */
     
+        --global-gray-05: #F5F5F5;
         --global-gray-10: #E8E8E8;
         --global-gray-15: #D6D6D6;
         --global-gray-20: #C4C4C4;
+        --global-gray-55: #4d4d4d;
+        --global-gray-75: #212121;
     
     /* Global GroupBlue */
         --global-groupblue-15: #BFE2EB;
@@ -25,4 +28,11 @@
         --global-green-60: #006B34;
         --global-green-65: #005B33;
     
+    /* Shapes */
+
+    --radius-none: 0;
+    --radius-sm: 2px;
+    --radius-md: 4px;
+    --radius-lg: 8px;
+    --radius-full: 9999px
     }

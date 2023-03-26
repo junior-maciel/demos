@@ -2,6 +2,10 @@
 @import url("./src/themes/tasy-light.css");
 @import url("./components.css");
 
+html {
+    background: var(--surface-base);
+}
+
 .s-hero {
     display: flex;
     width: 100%;
@@ -15,6 +19,13 @@
     width: 1280px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.s-hero .container .content {
+    display: flex;
+    flex-direction: row;
+    width: 560px;
+    justify-content: space-between;
 }

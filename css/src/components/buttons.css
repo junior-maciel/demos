@@ -1,5 +1,67 @@
 @import url("/css/main.css");
 
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: var(--button-borderRadius);
+}
+
 .button-primary {
-    background: var(--color-primary);
+    background: var(--color-primary-normal);
+    color: var(--text-onPrimary-normal);
+}
+
+.button-primary:hover {
+    background: var(--color-primary-hover);
+    color: var(--text-onPrimary-hover);
+}
+
+.button-primary:active {
+    background: var(--color-primary-pressed);
+    color: var(--text-onPrimary-pressed);
+}
+
+.button-secondary {
+    background: var(--color-secondary-normal);
+    color: var(--text-onSecondary-normal);
+}
+
+.button-secondary:hover {
+    background: var(--color-secondary-hover);
+    color: var(--text-onSecondary-hover);
+}
+
+.button-secondary:active {
+    background: var(--color-secondary-pressed);
+    color: var(--text-onSecondary-pressed);
+}
+
+.button-tertiary {
+    background: var(--color-tertiary-normal);
+    color: var(--text-onTertiary-normal);
+}
+
+.button-tertiary:hover {
+    background: var(--color-tertiary-hover);
+    color: var(--text-onTertiary-hover);
+}
+
+.button-tertiary:active {
+    background: var(--color-tertiary-pressed);
+    color: var(--text-onTertiary-pressed);
+}
+
+.button-signal {
+    background: var(--color-signal-normal);
+    color: var(--text-onSignal-normal);
+}
+
+.button-signal:hover {
+    background: var(--color-signal-hover);
+    color: var(--text-onSignal-hover);
+}
+
+.button-signal:active {
+    background: var(--color-signal-pressed);
+    color: var(--text-onSignal-pressed);
 }

@@ -1,5 +1,49 @@
 @import url("/css/src/foundation/variables.css");
 
 :root {
-    --color-primary: var(--brand-color-A)
+
+    /* Colors Surface */
+
+    --surface-base: var(--global-neutral-white);
+
+    /* Colors Interactive */
+
+    --color-primary-normal: var(--global-groupblue-50);
+    --color-primary-hover: var(--global-groupblue-55);
+    --color-primary-pressed: var(--global-groupblue-60);
+    --color-secondary-normal: var(--global-groupblue-15);
+    --color-secondary-hover: var(--global-groupblue-20);
+    --color-secondary-pressed: var(--global-groupblue-25);
+    --color-tertiary-normal: var(--global-gray-10);
+    --color-tertiary-hover: var(--global-gray-15);
+    --color-tertiary-pressed: var(--global-gray-20);
+    --color-signal-normal: var(--global-green-55);
+    --color-signal-hover: var(--global-green-60);
+    --color-signal-pressed: var(--global-green-65);
+
+    /* Text Interactive */
+
+    --text-onPrimary-normal: var(--global-neutral-white);
+    --text-onPrimary-hover: var(--global-neutral-white);
+    --text-onPrimary-pressed: var(--global-neutral-white);
+    --text-onSecondary-normal: var(--global-groupblue-75);
+    --text-onSecondary-hover: var(--global-groupblue-80);
+    --text-onSecondary-pressed: var(--global-groupblue-80);
+    --text-onTertiary-normal: var(--global-gray-75);
+    --text-onTertiary-hover: var(--global-gray-75);
+    --text-onTertiary-pressed: var(--global-gray-75);
+    --text-onSignal-normal: var(--global-neutral-white);
+    --text-onSignal-hover: var(--global-neutral-white);
+    --text-onSignal-pressed: var(--global-neutral-white);
+
+    /* UI Details */
+
+    --button-borderRadius: var(--radius-md)
+
+}
+
+
+
+button {
+    min-width: 80px;
 }

@@ -1,84 +1,76 @@
 :root {
-    /* Global Neutral */
-        --global-neutral-white: #FFFFFF;
-        --global-neutral-black: #000000;
-        --global-neutral-transparent: #FFFFFF00;
+/* Global Neutral */
+    --global-neutral-white: #FFFFFF;
+    --global-neutral-black: #000000;
+    --global-neutral-transparent: #FFFFFF00;
     
-    /* Global Gray */
+/* Global Gray */    
+    --global-gray-05: #F5F5F5;
+    --global-gray-10: #E8E8E8;
+    --global-gray-15: #D6D6D6;
+    --global-gray-20: #C4C4C4;
+    --global-gray-55: #4d4d4d;
+    --global-gray-60: #454545;
+    --global-gray-75: #212121;
     
-        --global-gray-05: #F5F5F5;
-        --global-gray-10: #E8E8E8;
-        --global-gray-15: #D6D6D6;
-        --global-gray-20: #C4C4C4;
-        --global-gray-55: #4d4d4d;
-        --global-gray-60: #454545;
-        --global-gray-75: #212121;
+/* Global GroupBlue */
+    --global-groupblue-05: #F0F8FA;
+    --global-groupblue-10: #DAF1F7;
+    --global-groupblue-15: #BFE2EB;
+    --global-groupblue-20: #9DD3E3;
+    --global-groupblue-25: #7CC0D9;
+    --global-groupblue-30: #5DAFD1;
+    --global-groupblue-45: #1474A4;
+    --global-groupblue-50: #176498;
+    --global-groupblue-55: #1B578E;
+    --global-groupblue-60: #1D4C84;
+    --global-groupblue-75: #1C255C;
+    --global-groupblue-80: #1C255C;
     
-    /* Global GroupBlue */
-        --global-groupblue-05: #F0F8FA;
-        --global-groupblue-10: #DAF1F7;
-        --global-groupblue-15: #BFE2EB;
-        --global-groupblue-20: #9DD3E3;
-        --global-groupblue-25: #7CC0D9;
-        --global-groupblue-30: #5DAFD1;
-        --global-groupblue-45: #1474A4;
-        --global-groupblue-50: #176498;
-        --global-groupblue-55: #1B578E;
-        --global-groupblue-60: #1D4C84;
-        --global-groupblue-75: #1C255C;
-        --global-groupblue-80: #1C255C;
+/* Global Green */
+    --global-green-55: #1E782E;
+    --global-green-60: #006B34;
+    --global-green-65: #005B33;
+    --global-green-70: #004E30;
+
+/* Global Blue */
+    --global-blue-05: #F2F6FF;
+    --global-blue-10: #DEEAFF;
+    --global-blue-15: #C5DAFB;
+    --global-blue-20: #ABCBF7;
+    --global-blue-25: #8DB9EF;
+    --global-blue-30: #72ABEB;
+    --global-blue-45: #337FBF;
+    --global-blue-50: #296FAB;
+    --global-blue-55: #236197;
+    --global-blue-60: #1C5385;
+    --global-blue-70: #123E68;
+    --global-blue-75: #0D3459;
+    --global-blue-80: #092F52;
+
+/* Signal Blue */
+    --signal-blue-30: #41C9FE;
+    --signal-blue-45: #03ABFF;
+
+/* Signal Green */
+    --signal-green-30: #45DE85;
+    --signal-green-40: #23CC72;
+    --signal-green-45: #00BD5E;
+    --signal-green-50: #00AB5B;
+    --signal-green-60: #009957;
+
+/* Signal Lime */
+    --signal-lime-60: #7BCC00;
+    --signal-lime-40: #B7F03C;
     
-    /* Global Green */
-        --global-green-55: #1E782E;
-        --global-green-60: #006B34;
-        --global-green-65: #005B33;
-        --global-green-70: #004E30;
-
-    /* Global Blue */
-        --global-blue-05: #F2F6FF;
-        --global-blue-10: #DEEAFF;
-        --global-blue-15: #C5DAFB;
-        --global-blue-20: #ABCBF7;
-        --global-blue-25: #8DB9EF;
-        --global-blue-30: #72ABEB;
-        --global-blue-45: #337FBF;
-        --global-blue-50: #296FAB;
-        --global-blue-55: #236197;
-        --global-blue-60: #1C5385;
-        --global-blue-70: #123E68;
-        --global-blue-75: #0D3459;
-        --global-blue-80: #092F52;
-
-
-    /* Signal Blue */
-
-        --signal-blue-30: #41C9FE;
-        --signal-blue-45: #03ABFF;
-
-    /* Signal Green */
-
-        --signal-green-30: #45DE85;
-        --signal-green-40: #23CC72;
-        --signal-green-45: #00BD5E;
-        --signal-green-50: #00AB5B;
-        --signal-green-60: #009957;
-
-    /* Signal Lime */
-
-        --signal-lime-60: #7BCC00;
-        --signal-lime-40: #B7F03C;
-
-    
-    /* Shapes */
-
+/* Shapes */
     --radius-none: 0;
     --radius-sm: 2px;
     --radius-md: 4px;
     --radius-lg: 8px;
     --radius-full: 9999px;
 
-    /* Shadows */
-
+/* Shadows */
     --shadow-color-none: #00000000;
     --shadow-color-light: #00000033;
     --shadow-color-dark: #00000099;

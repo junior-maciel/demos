@@ -57,4 +57,11 @@
     --shadow-color-dark: #00000099;
     --light-shadow-none: 0px 0px 0px 0px var(--shadow-color-none);
     --light-shadow-base: 0px 1px 1px 0px var(--shadow-color-dark);
+
+
+    --fil-color-neutral-blue-6: #17191C;
+    --fil-color-blue-26: #00438A;
+    --fil-color-blue-50: #0072DB;
+
+
     }

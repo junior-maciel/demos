@@ -9,6 +9,13 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* 
+*:focus-visible {
+    outline-offset: 4px;
+    outline: 3px solid var(--color-primary-normal);
+}
+*/
+
 img {
     max-width: 100%;
     display: block;
